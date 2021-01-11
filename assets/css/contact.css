@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Satisfy&display=swap');
+
+body{
+    background-color: #EBF5FB;
+}
+
+.ct{
+    font-size: 80px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.padb{
+    padding-bottom: 170px;
+}
+
+.sendt{
+    font-size: 30px;
+}
+
+label{
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}

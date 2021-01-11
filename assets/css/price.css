@@ -1,0 +1,62 @@
+
+
+.item {
+    display: flex;
+    padding: 0.75rem 1.5rem;
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+}
+
+.item span.dotted {
+    flex-grow: 1;
+    border-bottom: 1px dotted currentcolor;
+    margin: 0 0.5rem 0.25rem;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
+.backg{
+    background-color: #EBF5FB;
+}
+
+.deux {
+    background-color: #EBF5FB;
+    background-image: url(../img/tete.jpg);
+    background-size: cover;
+}
+
+.pad{
+    padding-top: 150px;
+
+}
+
+.cl{
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .item {
+        display: flex;
+        padding: 0.75rem 1.5rem;
+        font-family: 'Satisfy', cursive;
+        font-size: 20px;
+    }
+
+    .title{
+        padding-top: 60px;
+    }
+}
+
+
+@media screen and (max-width: 325px) {
+
+    .item {
+        display: flex;
+        font-family:'Satisfy', cursive;
+        font-size: 18px;
+    }
+}
